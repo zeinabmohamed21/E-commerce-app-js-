@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-cont">
+                <a href="index.html" class="brand">Xtra Market</a>
+                <nav>
+                    <ul id="links">
+                        <li><a href="login.html">Sign In</a></li> 
+                        <li><a href="register.html" >Sign Up</a></li> 
+                    </ul> 
+                    <ul id="user-info">
+                        <li><a href="#" id="user"></a></li>
+                        <li class="shoppingCart">
+                            <i class="fas fa-cart-plus shopping-cart"></i>
+                            <span class="badge"></span>
+                            <div class="cart-products">
+                                 <div></div>
+                                <a href="cartProducts.html">View all products</a>
+                            </div>
+                        </li>
+                         
+                        <li><a href="#" id="logout">Log Out</a></li>
+                    </ul>   
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <section class="home "> 
+        <div class="container">
+          <div class="products"></div>
+          <div class="noProducts"></div>
+        </div>
+      </section>
+
+    <script src="./js/data.js"></script>
+    <script src="./js/carts.js"></script>
+    <script src="./js/user.js"></script>
+</body>
+</html>
